@@ -1,7 +1,7 @@
 1. Clone
 
 ```cmd
-cd "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text\Packages"
+cd "%APPDATA%\Sublime Text\Packages"
 git clone https://github.com/mxtejj/sublime-settings .
 ```
 
