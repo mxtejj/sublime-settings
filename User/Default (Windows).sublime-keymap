@@ -1,0 +1,13 @@
+[
+	{ "keys": ["alt+a"], "command": "alignment" },
+	{ "keys": ["f12"], "command": "lsp_symbol_definition" },
+	{ "keys": ["primary+f12"], "command": "prev_view" },
+
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+
+	{
+		"command": "lsp_symbol_definition",
+		"args": {"event": {"button": 1, "modifiers": ["ctrl"]}}
+	}
+]

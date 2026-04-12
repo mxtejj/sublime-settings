@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"ANSIescape",
+		"Catppuccin color schemes",
+		"Comments Aware Enter",
+		"Dayle Rees Color Schemes",
+		"Dracula Color Scheme",
+		"Git",
+		"LSP",
+		"LSP-clangd",
+		"Material Theme",
+		"Odin",
+		"Package Control",
+		"PackageResourceViewer",
+		"Shader Syntax (GLSL HLSL Cg)",
+		"Terminal",
+		"Visual Studio Code Plus Scheme",
+		"Visual Studio Dark",
+	],
+}

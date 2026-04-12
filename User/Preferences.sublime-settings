@@ -1,0 +1,19 @@
+{
+  "font_size": 11,
+  "ignored_packages":
+  [
+    "Vintage",
+  ],
+  "color_scheme": "Packages/Dayle Rees Color Schemes/sublime/contrast/freshcut-contrast.tmTheme",
+  "index_files": true,
+  "theme": "Adaptive.sublime-theme",
+  "font_face": "Google Sans Code",
+  "font_options": [""],
+
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+
+  "rulers": [90],
+  "dark_color_scheme": "Packages/Dayle Rees Color Schemes/sublime/light/userscape.tmTheme",
+  "light_color_scheme": "Celeste.sublime-color-scheme",
+}

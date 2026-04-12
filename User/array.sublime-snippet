@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+typedef struct ${1:Name}Array ${1}Array;
+struct ${1}Array {
+  ${1} *v;
+  u64 count;
+};
+]]></content>
+  <tabTrigger>arr</tabTrigger>
+  <scope>source.c, source.c++</scope>
+  <description>array struct</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+typedef ${1:u32} ${2:Name}Flags;
+enum {
+  ${2}Flag_${3:First} = (1 << 0),
+  ${2}Flag_${4:Second} = (1 << 1),
+};
+]]></content>
+  <tabTrigger>eflags</tabTrigger>
+  <scope>source.c, source.c++</scope>
+  <description>enum bitmask flags</description>
+</snippet>

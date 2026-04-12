@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+typedef enum {
+  ${1}_${0},
+} ${1:Name};
+]]></content>
+  <tabTrigger>enu</tabTrigger>
+  <scope>source.c, source.c++</scope>
+  <description>typedef enum { ... } NAME</description>
+</snippet>

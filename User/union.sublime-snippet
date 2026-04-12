@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+typedef union ${1:Name} ${1};
+union ${1} {
+  ${0}
+};
+]]></content>
+  <tabTrigger>union</tabTrigger>
+  <scope>source.c, source.c++</scope>
+  <description>typedef union NAME / union NAME</description>
+</snippet>

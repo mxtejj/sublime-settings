@@ -1,0 +1,25 @@
+{
+  "rules": [
+
+    {
+      "scope": "meta.semantic-token",
+      "background": "#00000101"
+    },
+
+    {
+      "scope": "meta.semantic-token.function, meta.semantic-token.method",
+      "foreground": "#AEE239"
+    },
+
+    // color the enum the same as struct names
+    {
+      "scope": "meta.semantic-token.enum",
+      "foreground": "#4ECDC4"
+    },
+
+    {
+      "scope": "meta.semantic-token.macro",
+      "foreground": "#00A8C6"
+    }
+  ]
+}

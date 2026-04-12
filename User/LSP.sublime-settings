@@ -1,0 +1,34 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+  "semantic_highlighting": true,
+
+  "clients": {
+    "odin": {
+      "command": [
+        "C:\\dev\\ols\\ols.exe"
+      ],
+      "enabled": true, // true for globally-enabled, but not required due to 'Enable In Project' command
+      "selector": "source.odin",
+      "initializationOptions": {
+        "collections": [
+          { "name": "third_party", "path": "third_party" }
+        ],
+        "enable_semantic_tokens": true,
+        "enable_document_symbols": true,
+        "enable_hover": true,
+        "enable_snippets": true,
+        "enable_format": false,
+        "enable_fake_methods": true,
+        "verbose": true
+      }
+    },
+    "clangd": {
+      "disabled_capabilities": {
+        "diagnostics": true
+      }
+    }
+  },
+  
+  "show_diagnostics_panel_on_save": 0,
+  "diagnostics_highlight_style": "none"
+}

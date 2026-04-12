@@ -1,0 +1,5 @@
+// Terminal Settings - User
+{
+  "terminal": "C:\\bin\\cmder_mini\\Cmder.exe",
+  "parameters": ["/START", "%CWD%"],
+}

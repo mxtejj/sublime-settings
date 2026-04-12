@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+typedef struct ${1:Name}List ${1}List;
+struct ${1}List {
+  ${1} *first;
+  ${1} *last;
+  u64 count;
+};
+]]></content>
+  <tabTrigger>list</tabTrigger>
+  <scope>source.c, source.c++</scope>
+  <description>linked list struct</description>
+</snippet>

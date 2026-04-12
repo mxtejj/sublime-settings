@@ -1,0 +1,12 @@
+// Settings in here override those in "LSP-clangd/LSP-clangd.sublime-settings"
+
+{
+  "initializationOptions": {
+    "fallbackFlags": ["-x", "c"]
+    // "fallbackFlags": [
+    //   "-std=c11",
+    //   "-D_CRT_SECURE_NO_WARNINGS",
+    //   "-IC:/dev/gameboy/src",
+    // ]
+  }
+}

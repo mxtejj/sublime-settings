@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+#ifndef ${1:HEADER_NAME}_H
+#define ${1:HEADER_NAME}_H
+
+$0
+
+#endif // ${1:HEADER_NAME}_H
+
+]]></content>
+    <tabTrigger>guard</tabTrigger>
+    <scope>source.c, source.c++, source.c++-header</scope>
+</snippet>
