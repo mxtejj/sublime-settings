@@ -6,6 +6,8 @@
 	{ "keys": ["alt+up"], "command": "swap_line_up" },
 	{ "keys": ["alt+down"], "command": "swap_line_down" },
 
+	{ "keys": ["ctrl+alt+r"], "command": "reindent" },
+
 	{
 		"command": "lsp_symbol_definition",
 		"args": {"event": {"button": 1, "modifiers": ["ctrl"]}}
