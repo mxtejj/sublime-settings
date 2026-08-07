@@ -1,7 +1,8 @@
 <snippet>
   <content><![CDATA[
 typedef union ${1:Name} ${1};
-union ${1} {
+union ${1}
+{
   ${0}
 };
 ]]></content>
