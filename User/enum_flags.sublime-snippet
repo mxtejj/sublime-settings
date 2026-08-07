@@ -1,7 +1,8 @@
 <snippet>
   <content><![CDATA[
-typedef ${1:u32} ${2:Name}Flags;
-enum {
+typedef ${1:U32} ${2:Name}Flags;
+enum
+{
   ${2}Flag_${3:First} = (1 << 0),
   ${2}Flag_${4:Second} = (1 << 1),
 };

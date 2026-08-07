@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+typedef struct ${1:Name}Node ${1}Node;
+struct ${1}Node
+{
+  ${1}Node *next;
+  ${1}Node *prev;
+  ${1} v;
+};
+]]></content>
+  <tabTrigger>node</tabTrigger>
+  <scope>source.c, source.c++</scope>
+  <description>node struct</description>
+</snippet>
