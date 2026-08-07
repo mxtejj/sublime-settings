@@ -1,7 +1,8 @@
 <snippet>
   <content><![CDATA[
 typedef struct ${1:Name} ${1};
-struct ${1} {
+struct ${1}
+{
   ${0}
 };
 ]]></content>
