@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-#ifndef ${1:HEADER_NAME}_H
-#define ${1:HEADER_NAME}_H
+#ifndef ${TM_FILENAME/(.*)\..*/\U$1/}_H
+#define ${TM_FILENAME/(.*)\..*/\U$1/}_H
 
 $0
 
-#endif // ${1:HEADER_NAME}_H
+#endif // ${TM_FILENAME/(.*)\..*/\U$1/}_H
 
 ]]></content>
     <tabTrigger>guard</tabTrigger>
