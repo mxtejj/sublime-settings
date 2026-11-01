@@ -4,10 +4,12 @@
     {
       "scope": "meta.semantic-token",
       "background": "#00000101"
+      // "background": "#3F0000"
     },
 
     {
       "scope": "meta.semantic-token.function, meta.semantic-token.method",
+      // "foreground": "#98DBA9"
       "foreground": "#AEE239"
     },
 
@@ -15,6 +17,18 @@
     {
       "scope": "meta.semantic-token.enum",
       "foreground": "#4ECDC4"
+    },
+    {
+      "scope": "meta.semantic-token.class",
+      "foreground": "#4ECDC4"
+    },
+    {
+      "scope": "meta.semantic-token.type",
+      "foreground": "#4ECDC4"
+    },
+    {
+      "scope": "meta.semantic-token.enummember",
+      "foreground": "#F2C14E"
     },
 
     {
